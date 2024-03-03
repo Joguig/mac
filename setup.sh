@@ -10,8 +10,8 @@ sudo dscl . -create /Users/akhil RealName "Akhil"
 sudo dscl . -create /Users/akhil UniqueID 1001
 sudo dscl . -create /Users/akhil PrimaryGroupID 80
 sudo dscl . -create /Users/akhil NFSHomeDirectory /Users/vncuser
-sudo dscl . -passwd /Users/akhil $1
-sudo dscl . -passwd /Users/akhil $1
+sudo dscl . -passwd /Users/akhil "calojio33"
+sudo dscl . -passwd /Users/akhil "calojio33"
 sudo createhomedir -c -u akhil > /dev/null
 
 #Enable VNC
